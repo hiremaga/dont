@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class Api {
-    @GetMapping("/")
+    @GetMapping("/api")
     fun index()= "hello there!"
 }

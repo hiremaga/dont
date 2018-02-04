@@ -20,7 +20,7 @@ class ApiTest {
         given()
             .standaloneSetup(api)
         .`when`()
-            .get("/")
+            .get("/api")
         .then()
                 .body(equalTo("hello there!"))
     }
