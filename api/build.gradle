@@ -43,4 +43,6 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-reflect")
 	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('io.rest-assured:rest-assured:3.0.6')
+	testCompile('io.rest-assured:spring-mock-mvc:3.0.6')
 }
