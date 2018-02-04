@@ -26,3 +26,9 @@ task bundle(type: YarnTask) {
     args = ['run', 'build']
 }
 assemble.dependsOn(bundle)
+
+task start(type: YarnTask) {
+    dependsOn(yarnSetup)
+
+    args = ['start']
+}
